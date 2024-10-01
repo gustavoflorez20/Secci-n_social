@@ -1,0 +1,232 @@
+
+body{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.contenedor-superior{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+
+.contenedor-inferior{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.titulo-1{
+    font-family: "League Spartan", sans-serif;
+    
+    color: #EBD7ED;
+
+}
+.titulo{
+    color: #562254 ;
+    font-size: 3rem;
+    font-family: "League Spartan", sans-serif;
+    
+}
+.text-1{
+    color: #562254;
+    font-family: "League Spartan", sans-serif;
+}
+.text-2{
+    color: #562254;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+.text-3{
+    font-family: "League Spartan", sans-serif;
+    color: #EBD7ED;
+}
+
+.contenedor-2{
+    margin-top: 5rem;
+    
+}
+ svg{
+    margin-right: 0.50rem;
+   
+ 
+ }
+.text-2-1 {
+    color: #562254;
+    background-color:#F7F2F7 ;
+    margin-right: 4rem;
+   padding: 0.90rem 5rem 0.80rem 1.50rem;
+   font-size: 0.80rem;
+   border-radius: 0.40rem;
+   font-family: "League Spartan", sans-serif;
+   
+}
+.text-2-2 {
+    color: #562254;
+    background-color:#F7F2F7 ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0.90rem 5rem 0.80rem 1.50rem;
+    font-size: 0.80rem;
+    border-radius: 0.40rem;
+    font-family: "League Spartan", sans-serif;
+}
+.text-2-3 {
+    color: #562254;
+    background-color:#F7F2F7 ;
+    margin-left: 6rem;
+    padding: 0.90rem 5rem 0.80rem 1.50rem;
+   font-size: 0.80rem;
+   border-radius: 0.40rem;
+   font-family: "League Spartan", sans-serif;
+   
+}
+
+.minicontenedor-1{
+    background-color:#521F51 ;
+    color: white;
+    font-size: 0.80rem;
+    padding: 1rem 0.10rem 1rem 2rem;
+    border-radius: 0.50rem;
+    position: relative;
+    top: 3rem; 
+    height: 10rem;
+    width: 16rem; 
+    line-height: 1.10rem;
+    text-align: justify;
+}
+
+
+.minicontenedor-2{
+    background-color:#521F51 ;
+    color: white;
+    font-size: 0.80rem;
+    padding: 1rem 0.10rem 1rem 2rem;
+    border-radius: 0.40rem;
+    position: relative;
+    top: 4rem;
+    height: 10rem;
+    width: 16rem;
+    line-height: 1.10rem;
+    text-align: justify;
+    
+}
+.minicontenedor-3{
+    background-color:#521F51 ;
+    color: white;
+    font-size: 0.90rem;
+    padding: 1rem 0.10rem 1rem 2rem;
+    border-radius: 0.50rem;
+    position: relative;
+    top: 5rem;
+    height: 10rem;
+    width: 16rem;
+    line-height: 1.10rem;
+    text-align: justify;
+    
+    
+
+    
+}
+
+.titulo-2{
+    color: #B75C94;
+    font-family: "League Spartan", sans-serif;
+}
+
+.minicontenedor-1 img{
+    border-radius: 10rem;
+    width: 2rem;
+}
+.minicontenedor-2 img{
+    border-radius: 10rem;
+    width: 2rem;
+}
+.minicontenedor-3 img{
+    border-radius: 10rem;
+    width: 2rem;
+}
+
+.text-img {
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    gap: 1rem;
+    font-family: "League Spartan", sans-serif;
+    
+
+}
+img{
+    position: relative;
+    top: 0.60rem;
+    
+}
+
+@media (max-width: 700px) {
+    .contenedor-superior {
+        flex-direction:column; 
+        text-align: justify;
+        align-items:center;
+      gap: 0.010rem;
+      margin-left: 1rem;
+      
+    }
+    
+    .contenedor-inferior {
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        gap: 0.01rem; 
+        
+       
+        
+    }
+
+    .contenedor-2{
+        margin-left: 1rem;
+    }
+
+    .text-2-1 {
+        color: #562254;
+        background-color:#F7F2F7 ;
+        font-size: 0.70rem;
+       border-radius: 0.40rem;
+       font-family: "League Spartan", sans-serif;
+       width: 18rem;
+       height: 1rem;
+       position: relative;
+       left: 2rem;
+       
+       
+       
+    }
+    .text-2-2 {
+        color: #562254;
+        background-color:#F7F2F7 ;
+        font-size: 0.70rem;
+        border-radius: 0.40rem;
+        font-family: "League Spartan", sans-serif;
+        width: 18rem;
+        height: 1rem;
+        
+    }
+    .text-2-3 {
+        color: #562254;
+        background-color:#F7F2F7 ;
+        font-size: 0.70rem;
+       border-radius: 0.40rem;
+       font-family: "League Spartan", sans-serif;
+       width: 18rem;
+       height: 1rem;
+       position: relative;
+       right: 4rem;
+       
+       
+       
+    }
+}
